@@ -8,6 +8,7 @@ The purpose of this program is to take the given input (room dimensions, vacuum 
   2. The number of dirty spots the robot cleaned
 
 
+
 ### Running the program
 Navigate to the project directory in your terminal and run the following commands:
 ```
@@ -15,6 +16,7 @@ npm install
 npm run start
 ```
 These two commands will install and launch the application. To run the program, enter the inputs and click the 'Clean!' button.
+
 
 
 ### Input
@@ -41,6 +43,7 @@ Program input will be given through the web page. Please follow these conditions
   ```
 
 
+
 ### Output
 The program returns the final location of the vacuum and total number of dirty spots cleaned.
 The output is shown at the bottom of the webpage.
@@ -48,4 +51,6 @@ The output is shown at the bottom of the webpage.
 Final position:1,3
 Dirty spots cleaned: 1
 ```
+
 In addition to that output, the program will show the room grid and which spots are still dirty.
+![](UNADJUSTEDNONRAW_thumb_39.jpg)
