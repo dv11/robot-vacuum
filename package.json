@@ -1,0 +1,14 @@
+{
+  "name": "robot-vacuum",
+  "version": "1.0.0",
+  "description": "Robot Vacuum",
+  "main": "script.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "David Vu",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}

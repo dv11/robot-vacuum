@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Robotic Hoover</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+<h1>Tray.io Robot</h1>
+
+<!-- dimensions must be separated by single whitespace -->
+<!-- dirty squares must be separated by comma, each number separated with spaces -->
+<!-- ^dirty squares: "5 4,1 2,6 7" -->
+<!-- directions should be in all uppercase and connected with no whitespace  -->
+<div>
+  <div class="input_container">
+    <input class="input" type="text"
+  id="dimensions"
+  placeholder="Dimensions:5 5"> 
+</div>
+<div class="input_container">
+  <input class="input" type="text"
+  id="start"
+  placeholder="start:1 2"> 
+</div>
+<div class="input_container">
+  <input class="input" type="text"
+  id="dirty_squares"
+  placeholder="Dirty:1 0, 2 2, 2 3"> 
+</div>
+<div class="input_container">
+  <input class="input" type="text"
+  id="directions"
+  placeholder="Directions: NNESEESWNWW"> 
+</div>
+
+
+<button type="button" 
+   onclick="smart_vacuum()"> 
+Clean! 
+</button> 
+<p id="way"></p>
+<p id="test"></p>
+<p id="grid"></p>
+<p id="test"></p>
+<button type="button" onclick=""
+
+</body>
+
+</html>
