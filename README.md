@@ -35,7 +35,7 @@ Program input will be given through the web page. Please follow these conditions
   
   Box 4: directions to move - should be in all uppercase and connected with no whitespace
   ```
-  NNEESSEN
+  NNESEESWNWW
   ```
 
 ### Output
@@ -45,3 +45,4 @@ The output is shown at the bottom of the webpage.
 Final position:1,3
 Dirty spots cleaned: 1
 ```
+In addition to that output, the program will show the room grid and which spots are still dirty.
