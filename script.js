@@ -13,7 +13,7 @@ function smart_vacuum(){
         for (x = 0; x < dim[0]; x++){
             var row = []
             
-            for (y = 0; y<dim[1]; y++){
+            for (y = 0; y < dim[1]; y++){
                 var d;
                 var square_states = 0;                  // clean squares marked 0, dirty squares marked 1
                 for (d = 0; d < dirt.length; d++){      
@@ -71,9 +71,10 @@ function smart_vacuum(){
             
         }
        
+        // required output
         var pretty_output = "";
         var a, b;
-        for (a = grid[0].length-1; a >=0; a--){
+        for (a = grid[0].length - 1; a >= 0; a--){
             pretty_output  += "<br>";
             for (b = 0; b < grid[1].length; b++){
                 pretty_output += " "+ grid[b][a] + " ";
@@ -87,9 +88,3 @@ function smart_vacuum(){
     document.getElementById("grid").innerHTML = movement(dimensions,dirty_squares, directions, position);
    
 }
-        
-        
-
-
-
-
