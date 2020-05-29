@@ -52,6 +52,6 @@ Final position:1,3
 Dirty spots cleaned: 1
 ```
 
-In addition to that output, the program will show the room grid and which spots are still dirty. The output for the original example inputs can be seen below:
+In addition, the program will show the room grid and the remaining dirty spots in the room. The output for the original example inputs can be seen below:
 
 ![](UNADJUSTEDNONRAW_thumb_39.jpg)
